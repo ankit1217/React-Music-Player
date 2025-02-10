@@ -8,6 +8,7 @@ import Nav from "./components/Nav";
 
 function App() {
   // here i am adding comments
+  // adding extra comments on github webpage
   const [songs, setSongs] = useState(data());
   const [currentSong, setCurrentSong] = useState(songs[0]);
   const [isPlaying, setIsPlaying] = useState(false);
