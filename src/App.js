@@ -6,6 +6,7 @@ import data from "./util";
 import Library from "./components/Library";
 import Nav from "./components/Nav";
 function App() {
+  // this is pushed by github
   const [songs, setSongs] = useState(data());
   const [currentSong, setCurrentSong] = useState(songs[0]);
   const [isPlaying, setIsPlaying] = useState(false);
